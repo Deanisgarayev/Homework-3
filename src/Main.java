@@ -10,7 +10,7 @@ public class Main {
         long car = 1;
         System.out.println("Значение переменной long с типом car равно " + car);
         float flour = 3.5f;
-        System.out.println("Значение переменной float с типом flour равно " flour);
+        System.out.println("Значение переменной float с типом flour равно " + flour);
         double totalThing = apple + box + tray + car + flour;
         System.out.println("Значение переменной double с типом totalThing равно " + totalThing);
         // task 2
