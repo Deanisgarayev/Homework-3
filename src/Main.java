@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {;
+
         byte apple = 100;
         short box = 10;
         int tray = 4;
