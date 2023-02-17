@@ -1,14 +1,19 @@
 public class Main {
     public static void main(String[] args) {;
-
+        // task 1
         byte apple = 100;
+        System.out.println("Значение переменной byte с типом apple равно " + apple);
         short box = 10;
+        System.out.println("Значение переменной short с типом box равно " + box);
         int tray = 4;
+        System.out.println("Значение переменной int с типом  tray равно " + tray);
         long car = 1;
+        System.out.println("Значение переменной long с типом car равно " + car);
         float flour = 3.5f;
+        System.out.println("Значение переменной float с типом flour равно " flour);
         double totalThing = apple + box + tray + car + flour;
-        System.out.println("общие количество " + totalThing);
-
+        System.out.println("Значение переменной double с типом totalThing равно " + totalThing);
+        // task 2
         byte a = 67;
         short b = -159;
         int c = 27897;
@@ -16,7 +21,7 @@ public class Main {
         float e = 2.786f;
         double f = 27.12;
         short g = 569;
-
+        //task 3
         byte firstClass = 23;
         byte secondClass = 27;
         byte thirdClass = 30;
@@ -25,7 +30,7 @@ public class Main {
         System.out.println("Общие количество учеников " + allStudents);
         int sheet = totalSheet / allStudents;
         System.out.println("На каждого ученика рассчитано … листов бумаги " + sheet);
-
+        // task 4
         byte bottle = 16;
         byte time = 2;
         byte minuts = 20;
@@ -40,7 +45,7 @@ public class Main {
         System.out.println("производительность машины за 3 дня " + bottleThreeDays + " бутылок");
         long bottleMonth = month / time * bottle ;
         System.out.println("производительность машины за месяц " + bottleMonth + " бутылок");
-
+        // task 5
         byte paint = 120;
         byte whitePaint = 2;
         byte brownPaint = 4;
@@ -52,7 +57,7 @@ public class Main {
         System.out.println("Нужно " + totalWhitePaint + " банок белой краски");
         int totalBrownPaint = totalClass * brownPaint;
         System.out.println("Нужно " + totalBrownPaint + " банок коричневой краски");
-
+        //task 6
         byte banana = 5;
         byte milk = 2;
         byte iceCream = 2;
@@ -66,7 +71,7 @@ public class Main {
         float kilogram = 1000f;
         float foodKilogram = foodGram / kilogram;
         System.out.println("Вес блюда " + foodKilogram + " килограмм");
-
+        // task 7
         short thin = 7000;
         short formOne = 250;
         short formTwo = 500;
@@ -80,7 +85,7 @@ public class Main {
         System.out.println("Средние значение похудение в граммов в день " + middleForm);
         int dayMiddleForm = thin / middleForm;
         System.out.println("В средним что бы похудеть на 7 кг потребуется " + dayMiddleForm + " дней");
-
+        // task 8
         int masha = 67760;
         int denis = 83690;
         int kristina = 76230;
@@ -110,10 +115,5 @@ public class Main {
         System.out.println("Годовой доход Дениса вырос на " + denisRiseSalaryYear + " рублей");
         int kristinaRiseSalaryYear = kristinaYearAfter - kristinaYearBefore;
         System.out.println("Годовой доход Кристины вырос на " + kristinaRiseSalaryYear + " Рублей");
-
-
-
-
-
     }
 }
